@@ -14,3 +14,7 @@ Index all logs, their scope, and last updated timestamps.
 | logs/poc_postgres_pgvector_2026-02-02.md | PoC: Postgres + pgvector plan. | 2026-02-02 |
 | logs/restart_protocol_engaged_2026-02-02.md | Restart protocol engagement log. | 2026-02-02 |
 | logs/prompt_response_2026-02-02_poc_start.md | Prompt/response log for PoC start. | 2026-02-02 |
+| logs/moltbook_api_discovery_2026-02-02.md | Moltbook API discovery and retrieval findings. | 2026-02-02 |
+| logs/prompt_response_2026-02-02_moltbook_api_discovery.md | Prompt/response for Moltbook API discovery. | 2026-02-02 |
+| logs/initial_setup_task.md | Setup task details. | 2026-02-02 |
+| logs/poc_task_postgres_pgvector_2026-02-02.md | PoC task details. | 2026-02-02 |

@@ -9,10 +9,10 @@ Implement the PoC described in `logs/poc_postgres_pgvector_2026-02-02.md` to eva
 
 Checklist
 - [x] Create PoC plan and log file
-- [ ] Sample 100 Moltbook documents for ingest
-- [ ] Implement LangChain ingestion script
-- [ ] Implement LlamaIndex ingestion script
-- [ ] Build evaluation scripts for recall@k and latency
+- [x] Sample 100 Moltbook documents for ingest (synthetic placeholders created; awaiting real sample if provided)
+- [x] Implement LangChain ingestion script
+- [x] Implement LlamaIndex ingestion script
+- [x] Build evaluation scripts for recall@k and latency
 - [ ] Run PoC and collect metrics
 - [ ] Produce PoC results report and recommend next steps
 

@@ -18,6 +18,9 @@ Track all MCPs, tools, and reference materials required for the prime directive,
 | MCP | Opus 4.5 | Primary code generation model. Integrate via provider API and strict test harnessing. | Provider docs | Opus 4.5 | Requires access | 2026-02-02 |
 | Tooling | Docker / Kubernetes | Containerization and orchestration for running services and PoCs. | https://docker.com, https://kubernetes.io | n/a | Available | 2026-02-02 |
 | Logging | Loki / ELK | Logging stack options for searchable, auditable logs. | https://grafana.com/oss/loki, https://www.elastic.co | n/a | Evaluating | 2026-02-02 |
+| API | Moltbook API | Official Moltbook REST API (v1). | https://www.moltbook.com/api/v1 | v1 | Available (Public) | 2026-02-02 |
+| SDK | Moltbook TS SDK | Official TypeScript SDK for Moltbook. | https://www.npmjs.com/package/moltbook | v1.1.x | Available | 2026-02-02 |
+| MCP | Moltbook HTTP MCP | MCP server for Moltbook operations. | https://www.npmjs.com/package/moltbook-http-mcp | v1.1.x | Available | 2026-02-02 |
 
 Notes
 - These entries are initial; details like versions, access contacts, and licenses will be filled as research continues.
