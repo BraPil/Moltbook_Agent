@@ -1,0 +1,24 @@
+version: '3.8'
+services:
+  postgres:
+    image: postgres:15
+    environment:
+      POSTGRES_USER: moltbook
+      POSTGRES_PASSWORD: moltbook
+      POSTGRES_DB: moltbook
+    ports:
+      - "5432:5432"
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U moltbook"]
+      interval: 5s
+      timeout: 5s
+      retries: 5
+
+volumes:
+  pgdata:
+    driver: local
+
+# Note: pgvector extension must be installed in the Postgres image, or use an image that includes pgvector.
+# For local PoC, you can install pgvector via the postgres image's package manager or use 'ankane/pgvector' images.
